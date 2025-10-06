@@ -8,9 +8,9 @@
 section {
     position: relative;
     width: 100%;
-    min-height: 100vh;
+    min-height: 20vh;
     padding: 100px;
-    background: #121212;
+    background: #e51e2a;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -44,4 +44,47 @@ header .navegation li a{
     font-weight: 500;
     font-size: 19px;
     margin-left: 100px;
+}
+body{
+    background-color: #e51e2a;
+}
+.container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .text{
+    position: relative;
+    max-width: 600px;
+    margin-right: 20px;
+    display: flex;
+}
+.container .text h2{
+    color: #481875;
+    font-size: 3em;
+    margin-bottom: 10px;
+    line-height: 2.5em;
+    font-weight: 700;
+    margin-left: 100px;
+}
+.container .text h2 span{
+    font-size: 3.5em;
+    color: #121212;
+}
+.container .text p{
+    color: #fff;
+    margin-left: 100px;
+    text-align: justify;
+}
+.caixa-texto {
+  background-color: #fff;       /* fundo branco */
+  border: 1px solid #ddd;       /* borda leve */
+  border-radius: 10px;          /* cantos arredondados */
+  padding: 20px;                /* espaço interno */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* sombra sutil */
+  max-width: 700px;             /* largura máxima */
+  margin: 20px auto;            /* centraliza na página */
+  font-family: Arial, sans-serif;
 }

@@ -8,7 +8,7 @@
 section {
     position: relative;
     width: 100%;
-    min-height: 100vh;
+    min-height: 20vh;
     padding: 100px;
     background: #121212;
     display: flex;
@@ -44,4 +44,50 @@ header .navegation li a{
     font-weight: 500;
     font-size: 19px;
     margin-left: 100px;
+}
+.tabela-container {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  width: 80%;
+  max-width: 750px;
+  margin: 40px auto;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.tabela-container h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.tabela-opcoes {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.tabela-opcoes th, .tabela-opcoes td {
+  border: 1px solid #ddd;
+  padding: 14px 20px;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.tabela-opcoes th {
+  background-color: #f5f5f5;
+  font-weight: 600;
+}
+
+.tabela-opcoes tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.tabela-opcoes strong {
+  color: #000;
+}
+body{
+    background-color: #121212;
 }
